@@ -10,6 +10,19 @@ import { ContactSection } from '@/components/contact-section';
 export default function Home() {
   return (
     <>
+      <style dangerouslySetInnerHTML={{ __html: `/* invitation preset: elegant-gold — auto-generated */
+:root {
+  --inv-bg: #fffdf7;
+  --inv-bg-alt: #fef9ee;
+  --inv-text-primary: #1a1a1a;
+  --inv-text-secondary: #6b5c3e;
+  --inv-accent: #b8860b;
+  --inv-accent-glow: rgba(184,134,11,0.15);
+  --inv-card-bg: #ffffff;
+  --inv-card-border: #e8dcc8;
+  --inv-gradient-from: #b8860b;
+  --inv-gradient-to: #d4a853;
+}` }} />
       <main className="min-h-screen" style={{ background: 'var(--inv-bg)' }}>
         <HeroSection config={siteConfig} />
         <CountdownSection config={siteConfig} />

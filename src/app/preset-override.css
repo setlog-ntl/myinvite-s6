@@ -1,0 +1,9 @@
+/* ── Preset Override (auto-generated) ── */
+html[data-preset] {
+  --brand-primary: #b8860b;
+  --brand-secondary: #d4a853;
+  --brand-glow: rgba(184, 134, 11, 0.15);
+  --brand-gradient: linear-gradient(135deg, #b8860b, #d4a853);
+  --color-primary: #b8860b;
+  --color-secondary: #d4a853;
+}
